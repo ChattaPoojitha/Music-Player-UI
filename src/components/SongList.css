@@ -1,0 +1,40 @@
+.song-list {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.song-item:hover,
+.song-item.selected {
+    background-color: #333;
+}
+
+.song-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.song-item h4 {
+    margin: 0;
+}
+
+.song-item p {
+    margin: 0;
+    color: #b3b3b3;
+}
+
+.duration {
+    margin-left: auto;
+    color: #b3b3b3;
+}

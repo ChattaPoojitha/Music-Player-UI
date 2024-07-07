@@ -1,0 +1,14 @@
+.tabs button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #333;
+}
